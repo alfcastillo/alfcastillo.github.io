@@ -1,0 +1,67 @@
+   
+.container {
+    width: 1024px;
+    margin: 0 auto;
+} 
+div{
+    padding:20px;
+    border: 1px solid blue;
+    display: block;
+  }
+  
+  .nav{
+    _display:flex;
+    flex-direction: column;
+    justify-conten: space-around;
+    align-item: flex-end;
+  }
+  
+  .link-wrapper{
+    display: flex;
+  }
+  
+  .d-f{
+    display:flex;
+  }
+  
+
+
+body {
+        margin: 0;
+        padding: 0;
+        background-color: #efeee7;
+        font-family: Georgia, "Time new Roman", Times, serif;
+        color: #333;
+        font-size: 18px;
+        line-height: 150%;
+        
+    }
+
+    h1 {
+        padding: 20px 0;
+        margin: 0;
+        margin-bottom: 20 px;
+        font-size: 28px;
+        color: #333333;
+        text-decoration: underline;
+        text-align: center
+    }
+
+    h2, h3, p {
+        color: blue;
+    }
+
+    p, li {
+        font-size: 24px;
+        font-family: cursive;
+    }
+
+
+#main-bio,
+#contact-info,
+#bio-image{
+    float: left;
+}
+
+
+
